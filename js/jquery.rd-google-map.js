@@ -8,9 +8,8 @@
  */
 
 
-;
 (function ($) {
-    'use strict'
+    'use strict';
 
     var def_settings = {
             cntClass: 'map',
@@ -25,8 +24,8 @@
 
         defaults = {
             map: {
-                x: 55.843020,
-                y: 37.524273,
+                x: 37.524273,
+                y: 55.843020,
                 zoom: 14
             },
             locations: []
