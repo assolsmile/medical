@@ -11,6 +11,7 @@
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
   <!-- Links -->
   <link href="css/search.css" rel="stylesheet">
@@ -152,31 +153,6 @@
               <div class="caption">
                 <p>Лицензия</p>
               </div>
-              <!-- The Modal -->
-              <div id="myModal" class="modal-img">
-                <span class="close">×</span>
-                <img class="modal-content" id="img01">
-              </div>
-              <script>
-                // Get the modal
-                var modal = document.getElementById('myModal');
-                // Get the image and insert it inside the modal - use its "alt" text as a caption
-                var img = document.getElementById('myImg');
-                var modalImg = document.getElementById("img01");
-
-                img.onclick = function(){
-                  modal.style.display = "block";
-                  modalImg.src = this.src;
-                }
-                // Get the <span> element that closes the modal
-                var span = document.getElementsByClassName("close")[0];
-
-                // When the user clicks on <span> (x), close the modal
-                span.onclick = function() {
-                  modal.style.display = "none";
-                }
-              </script>
-
             </div>
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
@@ -221,6 +197,11 @@
           </div>
         </div>
       </div>
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal-img">
+      <span class="close">×</span>
+      <img class="modal-content" id="img01">
     </div>
 
     <div class="well__ins1 well__ins">
@@ -331,8 +312,25 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <script src="js/tm-scripts.js"></script>
-<!-- </script> -->
+<script>
+  // Get the modal
+  var modal = $('#myModal');
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var imgs = $('.thumbnail img');
+  var modalImg = $("#img01");
 
+  imgs.click(function(){
+    modal.css("display", "block");
+    modalImg.attr("src", $(this).attr("src"));
+  });
+  // Get the <span> element that closes the modal
+  var span = $(".close");
+
+  // When the user clicks on <span> (x), close the modal
+  span.click(function() {
+    modal.css("display", "none");
+  });
+</script>
 
 </body>
 </html>
