@@ -31,6 +31,11 @@
 .img-height-ceny{
   height: 247px !important;
 }
+
+
+.pad-top {
+  padding-top: 9px !important;
+}
 /*--------------------------*/
 
 /*Modal for licence*/
@@ -155,3 +160,8 @@
   }
 }
 
+
+.activ-ssilka {
+  color: #31708f;
+  text-decoration: underline;
+}
