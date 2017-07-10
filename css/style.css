@@ -36,6 +36,16 @@
 .pad-top {
   padding-top: 9px !important;
 }
+
+
+.nav-bar2 {
+  width: 200px;
+  margin: auto;
+}
+
+.active-nav-bar2 {
+  color:#01b9af ;
+}
 /*--------------------------*/
 
 /*Modal for licence*/
@@ -165,3 +175,5 @@
   color: #31708f;
   text-decoration: underline;
 }
+
+
