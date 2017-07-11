@@ -2567,7 +2567,7 @@ section.sect-404 .search-form {
 footer {
     background: #e2e6e9;
     padding-top: 71px;
-    padding-bottom: 168px;
+    padding-bottom: 90px;
     color: #646464;
 }
 
@@ -3039,6 +3039,10 @@ a.text-primary:hover {
 
 .bg-primary * {
     color: #fff;
+}
+
+.bg-primary1 {
+    background-color: #fff;
 }
 
 .bg-secondary {
@@ -6195,7 +6199,7 @@ fieldset[disabled] .btn-link:focus {
 
 .btn-xs:before {
     font-family: 'FontAwesome';
-    content: '\f105';
+    content: '\f107';
     line-height: 27px;
     color: #000;
     font-size: 18px;
