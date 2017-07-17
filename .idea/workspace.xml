@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48c32ed9-b633-4040-8098-76d86a3cb46f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prikaz.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/o-centre.html" afterPath="$PROJECT_DIR$/o-centre.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profosmotry.html" afterPath="$PROJECT_DIR$/profosmotry.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/viezdnie-profosmotry.html" afterPath="$PROJECT_DIR$/viezdnie-profosmotry.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prikaz.html" afterPath="$PROJECT_DIR$/prikaz.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,7 +21,7 @@
       <file leaf-file-name="profosmotry.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profosmotry.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="259">
               <caret line="238" column="89" lean-forward="false" selection-start-line="238" selection-start-column="89" selection-end-line="238" selection-end-column="89" />
               <folding>
                 <marker date="1500286544000" expanded="false" signature="915:967" ph="..." />
@@ -39,32 +36,32 @@
       <file leaf-file-name="prikaz.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prikaz.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="14" />
+            <state relative-caret-position="160">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="o-centre.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="o-centre.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/o-centre.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="127" column="35" lean-forward="false" selection-start-line="127" selection-start-column="35" selection-end-line="127" selection-end-column="35" />
+            <state relative-caret-position="380">
+              <caret line="142" column="60" lean-forward="false" selection-start-line="142" selection-start-column="60" selection-end-line="142" selection-end-column="60" />
               <folding>
-                <marker date="1500286897000" expanded="true" signature="856:908" ph="..." />
-                <marker date="1500286897000" expanded="true" signature="909:1210" ph="..." />
-                <marker date="1500286897000" expanded="true" signature="980:1201" ph="..." />
-                <marker date="1500286897000" expanded="true" signature="1074:1192" ph="..." />
+                <marker date="1500288028000" expanded="true" signature="856:908" ph="..." />
+                <marker date="1500288028000" expanded="true" signature="909:1210" ph="..." />
+                <marker date="1500288028000" expanded="true" signature="980:1201" ph="..." />
+                <marker date="1500288028000" expanded="true" signature="1074:1192" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="viezdnie-profosmotry.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="viezdnie-profosmotry.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/viezdnie-profosmotry.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="1616">
               <caret line="110" column="33" lean-forward="false" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
               <folding>
                 <marker date="1500286939000" expanded="false" signature="853:905" ph="..." />
@@ -97,9 +94,9 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/oformlenie-medknijki.html" />
         <option value="$PROJECT_DIR$/profosmotry.html" />
+        <option value="$PROJECT_DIR$/viezdnie-profosmotry.html" />
         <option value="$PROJECT_DIR$/prikaz.html" />
         <option value="$PROJECT_DIR$/o-centre.html" />
-        <option value="$PROJECT_DIR$/viezdnie-profosmotry.html" />
       </list>
     </option>
   </component>
@@ -282,7 +279,7 @@
       <option name="presentableId" value="Default" />
       <updated>1499076114114</updated>
       <workItem from="1499076117219" duration="13434000" />
-      <workItem from="1500278578887" duration="2371000" />
+      <workItem from="1500278578887" duration="3395000" />
     </task>
     <task id="LOCAL-00001" summary="Table for price">
       <created>1499091551135</created>
@@ -309,7 +306,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15805000" />
+    <option name="totallyTimeSpent" value="16829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="699" y="-1080" width="839" height="1080" extended-state="0" />
@@ -369,10 +366,10 @@
         <state relative-caret-position="2512">
           <caret line="157" column="20" lean-forward="false" selection-start-line="154" selection-start-column="14" selection-end-line="157" selection-end-column="20" />
           <folding>
-            <marker date="1500286897000" expanded="true" signature="856:908" ph="..." />
-            <marker date="1500286897000" expanded="true" signature="909:1210" ph="..." />
-            <marker date="1500286897000" expanded="true" signature="980:1201" ph="..." />
-            <marker date="1500286897000" expanded="true" signature="1074:1192" ph="..." />
+            <marker date="1500288028000" expanded="true" signature="856:908" ph="..." />
+            <marker date="1500288028000" expanded="true" signature="909:1210" ph="..." />
+            <marker date="1500288028000" expanded="true" signature="980:1201" ph="..." />
+            <marker date="1500288028000" expanded="true" signature="1074:1192" ph="..." />
           </folding>
         </state>
       </provider>
@@ -455,7 +452,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/profosmotry.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="259">
           <caret line="238" column="89" lean-forward="false" selection-start-line="238" selection-start-column="89" selection-end-line="238" selection-end-column="89" />
           <folding>
             <marker date="1500286544000" expanded="false" signature="915:967" ph="..." />
@@ -466,36 +463,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prikaz.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/o-centre.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="127" column="35" lean-forward="false" selection-start-line="127" selection-start-column="35" selection-end-line="127" selection-end-column="35" />
-          <folding>
-            <marker date="1500286897000" expanded="true" signature="856:908" ph="..." />
-            <marker date="1500286897000" expanded="true" signature="909:1210" ph="..." />
-            <marker date="1500286897000" expanded="true" signature="980:1201" ph="..." />
-            <marker date="1500286897000" expanded="true" signature="1074:1192" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/viezdnie-profosmotry.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="1616">
           <caret line="110" column="33" lean-forward="false" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
           <folding>
             <marker date="1500286939000" expanded="false" signature="853:905" ph="..." />
             <marker date="1500286939000" expanded="true" signature="906:1207" ph="..." />
             <marker date="1500286939000" expanded="true" signature="977:1198" ph="..." />
             <marker date="1500286939000" expanded="true" signature="1071:1189" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prikaz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/o-centre.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="142" column="60" lean-forward="false" selection-start-line="142" selection-start-column="60" selection-end-line="142" selection-end-column="60" />
+          <folding>
+            <marker date="1500288028000" expanded="true" signature="856:908" ph="..." />
+            <marker date="1500288028000" expanded="true" signature="909:1210" ph="..." />
+            <marker date="1500288028000" expanded="true" signature="980:1201" ph="..." />
+            <marker date="1500288028000" expanded="true" signature="1074:1192" ph="..." />
           </folding>
         </state>
       </provider>
