@@ -1,226 +1,247 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="format-detection" content="telephone=no"/>
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <title>Contacts</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <title>Contacts</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
-    <!-- Links -->
-    <link href="css/search.css" rel="stylesheet">
-    <link href="css/jquery.fancybox.css" rel="stylesheet">
-    <link href="css/google-map.css" rel="stylesheet">
-    <link href="css/mailform.css" rel="stylesheet">
+  <!-- Links -->
+  <link href="css/search.css" rel="stylesheet">
+  <link href="css/jquery.fancybox.css" rel="stylesheet">
+  <link href="css/google-map.css" rel="stylesheet">
+  <link href="css/mailform.css" rel="stylesheet">
 
 
-    <!--JS-->
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+  <!--JS-->
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-migrate-1.2.1.min.js"></script>
 
-    <!--[if lt IE 9]>
-    <div style=' clear: both; text-align:center; position: relative;'>
-        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
-            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
-                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
-        </a>
-    </div>
-    <script src="js/html5shiv.js"></script>
-    <![endif]-->
-    <script src='js/device.min.js'></script>
+  <!--[if lt IE 9]>
+  <div style=' clear: both; text-align:center; position: relative;'>
+    <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+      <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+    </a>
+  </div>
+  <script src="js/html5shiv.js"></script>
+  <![endif]-->
+  <script src='js/device.min.js'></script>
 
 </head>
 <body>
 <div class="page">
-    <!--========================================================
-                              HEADER
-    =========================================================-->
-    <header>
+  <!--========================================================
+                            HEADER
+  =========================================================-->
+  <header>
+    <div class="container">
+      <div class="header-cnt">
+        <div class="navbar-header pad-left-3">
+          <div class="navbar-icon"><a href="./"> <img src="images/logo.png"></a></div>
+        </div>
+      </div>
+    </div>
+    <div id="stuck_container" class="stuck_container">
+      <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
-            <div class="header-cnt">
-                <div class="navbar-header">
-                    <div class="navbar-icon"><a href="./"> <img src="images/logo.png"></a></div>
+          <ul class="navbar-nav sf-menu navbar-left" data-type="navbar">
+            <li>
+              <a href="./">ГЛАВНАЯ</a>
+            </li>
+            <li>
+              <a href="o-centre.html">О ЦЕНТРЕ</a>
+            </li>
+            <li class="dropdown">
+              <a href="#">УСЛУГИ И ЦЕНЫ</a>
 
-                   
-                </div>
-            </div>
-        </div>
-        <div id="stuck_container" class="stuck_container">
-            <nav class="navbar navbar-default navbar-static-top">
-                <div class="container">
-                    <ul class="navbar-nav sf-menu navbar-left" data-type="navbar">
-                        <li>
-                            <a href="./">ГЛАВНАЯ</a>
-                        </li>
-                        <li>
-                            <a href="o-centre.html">О ЦЕНТРЕ</a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#">УСЛУГИ И ЦЕНЫ</a>
-
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="profosmotry.html">ПРОФОСМОТРЫ РАБОТНИКОВ</a>
-                                </li>
-                                <hr>
-                                <li>
-                                    <a href="viezdnie-profosmotry.html">ВЫЕЗДНЫЕ ПРОФОСМОТРЫ РАБОТНИКОВ</a>
-
-                                </li>
-                                <hr>
-                                <li>
-                                    <a href="oformlenie-medknijki.html">ОФОРМЛЕНИЕ МЕДКНИЖЕК</a>
-                                </li>
-                            </ul>
-                        </li>
-
-
-                        <li class="active">
-                            <a href="kontakty.html">КОНТАКТЫ</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <!--========================================================
-                              CONTENT
-    =========================================================-->
-    <main>
-        <section class="map">
-            <div id="google-map" class="map_model" data-zoom="17"></div>
-
-            <ul class="map_locations">
-                <li data-x="37.524273" data-y="55.843020">
-                    <p> Пакгаузное шоссе, 1к1 <br>
-                          Москва, Россия
-                        <span>800 2345-6789</span>
-                    </p>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="profosmotry.html">ПРОФОСМОТРЫ РАБОТНИКОВ</a>
                 </li>
-            </ul>
-        </section>
+                <hr>
+                <li>
+                  <a href="viezdnie-profosmotry.html">ВЫЕЗДНЫЕ ПРОФОСМОТРЫ РАБОТНИКОВ</a>
 
-        <section class="well6 well6__ins1">
-            <div class="container">
-                <h3>Номер телефона: &nbsp;
-                    <br class="br_768"> <a class="text-primary" href="callto:#">(951) 683-6370</a>
-                </h3>
+                </li>
+                <hr>
+                <li>
+                  <a href="oformlenie-medknijki.html">ОФОРМЛЕНИЕ МЕДКНИЖЕК</a>
+                </li>
+              </ul>
+            </li>
 
-                <div class="row off3">
-                    <div class="col-md-6 col-sm-12 col-xs-12">
-                        <p class="taddress">Пакгаузное шоссе, 1к1, Москва, Россия</p>
-                        <table id="simple-example-table" class="table1">
-                            <thead>
-                            <tr class="">
-                                <td class="td01" rowspan="2"> Адрес центра </td>
-                                <td colspan="2"> Пакгаузное шоссе д. 1, к. 1<br>
-                                    Москва, Россия
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Часы</td>
-                                <td>Дни</td>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td class="va-m">Время работы:</td>
-                                <td class="td02">
-                                    <span>9:00 - 19:00 pm<br>9:00 am - 14:00 pm</span>
-                                </td>
-                                <td class="td03">
-                                    <span>Понедельник - Пятница <br> Суббота</span>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <section class="well6 well6__ins">
-            <div class="container">
-                <h5>quick Contact</h5>
-
-                <div class="row">
-                    <div class="mailform_wrap">
-                        <form class='mailform' method="post" action="bat/rd-mailform.php">
-                            <input type="hidden" name="form-type" value="contact"/>
-                            <fieldset>
-
-                                <div class="col-md-6 col-sm-12 col-xs-12">
-                                    <label class="textarea" data-add-placeholder="">
-                                                          <textarea name="message" placeholder="Your Message"
-                                                                    data-constraints="@NotEmpty"></textarea>
-                                    </label>
-                                </div>
-
-                                <div class="col-md-6 col-sm-12 col-xs-12">
-                                    <label data-add-placeholder="">
-                                        <input type="text"
-                                               name="name"
-                                               placeholder="Your Name"
-                                               data-constraints="@LettersOnly @NotEmpty"/>
-                                    </label>
-                                </div>
-
-                                <div class="col-md-6 col-sm-12 col-xs-12 off_mail">
-                                    <label data-add-placeholder="">
-                                        <input type="text"
-                                               name="email"
-                                               placeholder="Your Email"
-                                               data-constraints="@Email @NotEmpty"/>
-                                    </label>
-                                </div>
-
-                                <div class="col-md-6 col-sm-12 col-xs-12">
-                                    <div class="mfControls">
-                                        <button class="btn btn-primary" type="submit">Submit the form</button>
-                                    </div>
-                                </div>
-                            </fieldset>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!--========================================================
-                               FOOTER
-     =========================================================-->
-    <footer>
-        <div class="bg-secondary2">
-            <div class="footer-well">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12 col-xs-12">
-                            <div class="contact-us">
-                                <h5>Контакты</h5>
-
-                                <p>Телефоны: <a href="callto:#">+1 800 559 6580</a></p>
-
-                                <a href="mailto:#">contact@demolink.org</a>
-
-                                <address>
-                                  <p> Пакгаузное шоссе, 1к1 <br>
-                                    Москва, Россия
-                                </address>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <li class="active">
+              <a href="kontakty.html">КОНТАКТЫ</a>
+            </li>
+          </ul>
         </div>
-    </footer>
+      </nav>
+    </div>
+  </header>
+
+  <!--========================================================
+                            CONTENT
+  =========================================================-->
+  <main>
+    <section class="map">
+      <div id="google-map" class="map_model" data-zoom="17"></div>
+
+      <ul class="map_locations">
+        <li data-x="37.524273" data-y="55.843020">
+          <p> Пакгаузное шоссе, 1к1 <br>
+            Москва, Россия
+            <span>800 2345-6789</span>
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="well6 well6__ins1">
+      <div class="container">
+        <h3>Номер телефона: &nbsp;
+          <br class="br_768"> <a class="text-primary" href="#">(951) 683-6370</a>
+        </h3>
+
+        <div class="row off3">
+          <div class="col-md-6 col-sm-12 col-xs-12">
+            <p class="taddress">Пакгаузное шоссе, 1к1, Москва, Россия</p>
+            <table id="simple-example-table" class="table1">
+              <thead>
+              <tr class="">
+                <td class="td01" rowspan="2"> Адрес центра</td>
+                <td colspan="2"> Пакгаузное шоссе д. 1, к. 1<br>
+                  Москва, Россия
+                </td>
+              </tr>
+              <tr>
+                <td>Часы</td>
+                <td>Дни</td>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td class="va-m">Время работы:</td>
+                <td class="td02">
+                  <span>9:00 - 19:00 pm<br>9:00 am - 14:00 pm</span>
+                </td>
+                <td class="td03">
+                  <span>Понедельник - Пятница <br> Суббота</span>
+                </td>
+              </tr>
+              <thead>
+              <tr>
+                <td class="td01" colspan="3"> Контактная инфориация:</td>
+              </tr>
+              <tr>
+                <td class="va-m"> E-mail:</td>
+                <td class="td02" colspan="2"> contact@demolink.org</td>
+
+              </tr>
+              <tr>
+                <td class="va-m"> Телефон:</td>
+                <td class="td02" colspan="2"> (951) 683-6370</td>
+
+              </tr>
+              <tr>
+                <td class="td01" colspan="3"> Как пройти:</td>
+              </tr>
+              <tr>
+                <td class="va-m" colspan="3"><span>Duis sem est viverra eu interdum ac suscipit nec mauris. Suspendisse commodo tempor sagittis! In justo est, sollicitudin eu scelerisque pretium placerat eget elit praesent faucibus rutrum odio at rhoncus.</span>
+                </td>
+
+              </tr>
+              </thead>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="well6 well6__ins">
+      <div class="container">
+        <h5>задать вопрос</h5>
+
+        <div class="row">
+          <div class="mailform_wrap">
+            <form class='mailform' method="post" action="bat/rd-mailform.php">
+              <input type="hidden" name="form-type" value="contact"/>
+              <fieldset>
+
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                  <label class="textarea" data-add-placeholder="">
+                                                          <textarea name="message" placeholder="Ваше сообщение"
+                                                                    data-constraints="@NotEmpty"></textarea>
+                  </label>
+                </div>
+
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                  <label data-add-placeholder="">
+                    <input type="text"
+                           name="name"
+                           placeholder="ФИО"
+                           data-constraints="@LettersOnly @NotEmpty"/>
+                  </label>
+                </div>
+
+                <div class="col-md-6 col-sm-12 col-xs-12 off_mail">
+                  <label data-add-placeholder="">
+                    <input type="text"
+                           name="email"
+                           placeholder="Ваш E-mail"
+                           data-constraints="@Email @NotEmpty"/>
+                  </label>
+                </div>
+
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                  <div class="mfControls">
+                    <button class="btn btn-primary" type="submit">Отправит</button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--========================================================
+                             FOOTER
+   =========================================================-->
+  <footer>
+    <div class="bg-secondary2">
+      <div class="footer-well">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <div class="contact-us">
+                <h5>Контакты</h5>
+
+                <p>Телефоны: <a href="callto:#">+1 800 559 6580</a></p>
+
+                <a href="mailto:#">contact@demolink.org</a>
+
+                <address>
+                  <p> Пакгаузное шоссе, 1к1 <br>
+                    Москва, Россия
+                </address>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </div>
 
 
@@ -229,7 +250,6 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/tm-scripts.js"></script>
 <!-- </script> -->
-
 
 
 </body>
