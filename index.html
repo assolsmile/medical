@@ -14,7 +14,6 @@
   <link href="css/style.css" rel="stylesheet">
 
   <!-- Links -->
-  <link href="css/search.css" rel="stylesheet">
   <link href="css/jquery.fancybox.css" rel="stylesheet">
   <link href="css/camera.css" rel="stylesheet">
   <link href="css/mailform.css" rel="stylesheet">
@@ -45,18 +44,8 @@
   <header>
     <div class="container">
       <div class="header-cnt">
-        <div class="navbar-header">
-          <div class="navbar-icon"></div>
-
-          <div class="navbar-cnt">
-            <h1 class="navbar-brand">
-              <a data-type='rd-navbar-brand' href="./">Riverside</a>
-            </h1>
-
-            <p class="navbar-slogan">
-              Medical clinic
-            </p>
-          </div>
+        <div class="navbar-header pad-left-0">
+          <div class="navbar-icon"><a href="./"> <img src="images/logo.png"></a></div>
         </div>
       </div>
     </div>
@@ -224,7 +213,7 @@
 
               <p class="text-primary"> Телефон: <br class="br_320"><a href="callto:#">(951) 683-6370</a></p>
 
-              <a class="btn btn-lg btn-primary" href="kontakty.html">more information</a>
+              <a class="btn btn-lg btn-primary" href="kontakty.html">подробная информация</a>
             </div>
           </div>
         </div>
@@ -232,7 +221,7 @@
 
       <div class="well4">
         <div class="container">
-          <h5 class=" wow fadeInRight">quick Contact</h5>
+          <h5 class=" wow fadeInRight">задать вопрос</h5>
 
           <div class="row">
             <div class="mailform_wrap">
@@ -242,7 +231,7 @@
 
                   <div class="col-md-6 col-sm-12 col-xs-12">
                     <label class="textarea" data-add-placeholder="">
-                                                          <textarea name="message" placeholder="Your Message"
+                                                          <textarea name="message" placeholder="Ваше сообщение"
                                                                     data-constraints="@NotEmpty"></textarea>
                     </label>
                   </div>
@@ -251,7 +240,7 @@
                     <label data-add-placeholder="">
                       <input type="text"
                              name="name"
-                             placeholder="Your Name"
+                             placeholder="ФИО"
                              data-constraints="@LettersOnly @NotEmpty"/>
                     </label>
                   </div>
@@ -260,14 +249,14 @@
                     <label data-add-placeholder="">
                       <input type="text"
                              name="email"
-                             placeholder="Your Email"
+                             placeholder="Ваш E-mail"
                              data-constraints="@Email @NotEmpty"/>
                     </label>
                   </div>
 
                   <div class="col-md-6 col-sm-12 col-xs-12">
                     <div class="mfControls">
-                      <button class="btn btn-primary" type="submit">Submit the form</button>
+                      <button class="btn btn-primary" type="submit">Отправить</button>
                     </div>
                   </div>
                 </fieldset>

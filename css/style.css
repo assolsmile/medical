@@ -50,6 +50,10 @@
 .active-nav-bar2 {
   color:#01b9af ;
 }
+
+.pad-left-0 {
+  padding-left: 0 !important;
+}
 /*--------------------------*/
 
 /*Modal for licence*/

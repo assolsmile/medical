@@ -7052,7 +7052,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-icon:before {
-    content: url(../images/logo.png);
+    /*content: url(../images/logo.png);*/
     position: absolute;
     top: 1px;
     left: 0;
@@ -7063,6 +7063,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
+}
+
+.navbar-icon img {
+    width: 350px;
 }
 
 .navbar-default {
