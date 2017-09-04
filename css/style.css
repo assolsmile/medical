@@ -143,6 +143,18 @@
   }
 }
 
+.activ-ssilka {
+  color: #31708f;
+  text-decoration: underline;
+}
+
+
+/*--------------------------*/
+
+/*Table with prices*/
+
+/*--------------------------*/
+
 .table-ceny th {
   font-size: 20px;
   color: #01b9af;
@@ -178,10 +190,7 @@
   }
 }
 
-
-.activ-ssilka {
-  color: #31708f;
-  text-decoration: underline;
+.header_name_ceny {
+  background-color: #f5f5f5;
+  text-align: center;
 }
-
-

@@ -2788,9 +2788,9 @@ h3 + p {
     margin-top: 17px;
 }
 
-h5 + * {
-    margin-top: 52px;
-}
+/*h5 + * {*/
+    /*margin-top: 52px;*/
+/*}*/
 
 h5 + p {
     margin-top: 6px;
