@@ -194,3 +194,40 @@
   background-color: #f5f5f5;
   text-align: center;
 }
+
+/*--------------------------*/
+
+/*Our customers*/
+
+/*--------------------------*/
+
+.klienti-mib {
+  padding-left: 80px;
+}
+@media only screen and (max-width: 768px) {
+  .klienti-mib {
+    padding-left: 0;
+  }
+}
+
+
+.klienti-lit {
+  padding-left: 30px;
+  width: 300px;
+}
+@media only screen and (max-width: 768px) {
+  .klienti-lit {
+    padding-left: 0;
+  }
+}
+
+
+.klienti-moskow {
+  padding-left: 30px;
+  width: 300px;
+}
+@media only screen and (max-width: 768px) {
+  .klienti-moskow {
+    padding-left: 0;
+  }
+}
