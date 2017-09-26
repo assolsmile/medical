@@ -1406,9 +1406,9 @@ th {
     }
 }
 
-.isStuck .sf-menu ul {
-    top: 70px;
-}
+/*.isStuck .sf-menu ul {*/
+    /*top: 70px;*/
+/*}*/
 
 .isStuck .sf-menu ul ul {
     top: 0;
@@ -4949,7 +4949,7 @@ output {
     padding: 15px 14px;
     font-size: 14px;
     line-height: 1.71428571;
-    color: #e2e0e0;
+    color: #a4a4a5;
     background-color: #ffffff;
     background-image: none;
     border: 1px solid #cccccc;
@@ -7005,7 +7005,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 .navbar-header {
     display: inline-block;
-    padding-left: 65px;
     margin-top: 41px;
 }
 
@@ -9272,29 +9271,29 @@ button.close {
     outline: 0;
 }
 
-.modal-backdrop {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1040;
-    background-color: #000000;
-}
+/*.modal-backdrop {*/
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*right: 0;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*z-index: 1040;*/
+    /*background-color: #000000;*/
+/*}*/
 
-.modal-backdrop.fade {
-    opacity: 0;
-    filter: alpha(opacity=0);
-}
+/*.modal-backdrop.fade {*/
+    /*opacity: 0;*/
+    /*filter: alpha(opacity=0);*/
+/*}*/
 
 .lt-ie9 .modal-backdrop.fade {
     filter: alpha(opacity=0);
 }
 
-.modal-backdrop.in {
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-}
+/*.modal-backdrop.in {*/
+    /*opacity: 0.5;*/
+    /*filter: alpha(opacity=50);*/
+/*}*/
 
 .lt-ie9 .modal-backdrop.in {
     filter: alpha(opacity=50);

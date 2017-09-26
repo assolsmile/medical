@@ -42,8 +42,98 @@
   <header>
     <div class="container">
       <div class="header-cnt">
-        <div class="navbar-header pad-left-3">
+        <div class="navbar-header">
           <div class="navbar-icon"><a href="./"> <img src="images/logo.png"></a></div>
+        </div>
+        <div class="navbar-header-contact">
+          <h4 class="text-center">
+            <br class="br_768"> <a class="text-primary" href="#">+951 683-6370</a>
+          </h4>
+          <div>
+            <!-- Trigger the modal with a button -->
+            <button type="button" class="btn btn-lg btn-modal" data-toggle="modal" data-target="#myModal">Обратная связь
+            </button>
+
+            <!-- Modal -->
+
+            <div class="modal fade" id="myModal" role="dialog" aria-labelledby="myModalLabel"
+                 aria-hidden="true">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+
+                <div class="modal-content" style="margin-top: 100px">
+                  <div class="modal-header">
+                    <button type="button" class="close"
+                            data-dismiss="modal">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">Modal Header</h4>
+                  </div>
+
+                  <!-- Modal Body -->
+
+                  <div class="modal-body">
+                    <form class="form-horizontal" role="form" method="post" action="bat/rd-mailform.php">
+                      <input type="hidden" name="form-type" value="obratnyi zvonok"/>
+                      <fieldset>
+                        <div class="form-group">
+                          <div class="col-sm-12">
+                            <input type="text"
+                                   name="name"
+                                   class="form-control"
+                                   placeholder="Ваше имя"/>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-sm-12">
+                            <input type="text"
+                                   name="telephone"
+                                   class="form-control"
+                                   placeholder="Телефон"/>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-sm-12">
+                            <input type="text"
+                                   class="form-control"
+                                   placeholder="Время для звонка"/>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-sm-12">
+                          <textarea
+                                  class="modal-textarea"
+                                  name="comments"
+                                  placeholder="Комментарий"></textarea>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-sm-12">
+                            <div class="checkbox">
+                              <label>
+                                <input type="checkbox"/> Согласен на обработку персональных данных.
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class=" col-sm-12">
+                            <button type="submit" class="btn">Отправить</button>
+                          </div>
+                        </div>
+                      </fieldset>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
     </div>
@@ -114,59 +204,499 @@
       <div class=" well">
         <div class="container">
           <h5 class=" wow fadeInRight">ЦЕНЫ</h5>
-          <div class="col-md-9 col-md-offset-1 col-sm-12 col-xs-12 ">
-            <table class="table table-hover table-ceny">
+          <div class="col-md-12 col-sm-12 col-xs-12 table-xs">
+            <table class="table table-hover table-ceny-oformlenie">
               <thead>
               <tr>
-                <th>Вид выполняемой диагностики</th>
+                <th>Наименование услуги</th>
                 <th>Стоимость</th>
+                <th>Объем услуг для оформления ЛМК</th>
+                <th>Объем услуг для продления ЛМК</th>
+                <th>Стоимость оформления ЛМК*</th>
+                <th>Стоимость продления ЛМК*</th>
+              </tr>
+              <tr>
+                <th colspan="6" class="header_name_ceny-oformlenie">Работники пищевой промышленности, общественного
+                  питания, продовольственной и промышленной торговли
+                </th>
               </tr>
               </thead>
               <tbody>
               <tr>
-                <td> Невропатолог <br>
-                  объективный осмотр, оценка высших мозговых функций, исследование функции черепных нервов,
-                  двигательная,
-                  чувствительная координаторная сфера
-                </td>
-                <td>300 руб.</td>
+                <td> Оформление ЛМК, аттестация (при оформлении ЛМК)</td>
+                <td>700 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td></td>
+                <td>2870 руб.</td>
+                <td>2070 руб.</td>
               </tr>
               <tr>
-                <td>Хирург<br>
-                  общеклинический осмотр
-                </td>
-                <td>300 руб.</td>
+                <td> Периодическая аттестация (при продлении ЛМК)</td>
+                <td>500 руб.</td>
+                <td></td>
+                <td><img src="images/tick.png"></td>
+                <td>2870 руб.</td>
+                <td>2070 руб.</td>
               </tr>
               <tr>
-                <td>Оториноларинголог<br>
-                  риноскопия, ларингоскопия, отоскопия, определение восприятия шепотной речи, аудиометрия, исследование
-                  вестибулярного анализатора
-                </td>
-                <td>300 руб.</td>
+                <td> Терапевт</td>
+                <td>230 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2870 руб.</td>
+                <td>2070 руб.</td>
               </tr>
               <tr>
-                <td>Невропатолог <br>
-                  объективный осмотр, оценка высших мозговых функций, исследование функции черепных нервов,
-                  двигательная,
-                  чувствительная координаторная сфера
-                </td>
-                <td>300 руб.</td>
+                <td>Оториноларинголог</td>
+                <td>230 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2870 руб.</td>
+                <td>2070 руб.</td>
               </tr>
               <tr>
-                <td>Невропатолог <br>
-                  объективный осмотр, оценка высших мозговых функций, исследование функции черепных нервов,
-                  двигательная,
-                  чувствительная координаторная сфера
-                </td>
-                <td>300 руб.</td>
+                <td> Стоматолог</td>
+                <td>230 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2870 руб.</td>
+                <td>2070 руб.</td>
               </tr>
               <tr>
-                <td>Невропатолог <br>
-                  объективный осмотр, оценка высших мозговых функций, исследование функции черепных нервов,
-                  двигательная,
-                  чувствительная координаторная сфера
+                <td> Дерматовенеролог</td>
+                <td>230 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2870 руб.</td>
+                <td>2070 руб.</td>
+              </tr>
+              <tr>
+                <td> Флюорография</td>
+                <td>350 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2870 руб.</td>
+                <td>2070 руб.</td>
+              </tr>
+              <tr>
+                <td> Исследование крови на сифилис</td>
+                <td>150 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2870 руб.</td>
+                <td>2070 руб.</td>
+              </tr>
+              <tr>
+                <td> Исследование на гельминтозы, энтеробиоз и протозоозы</td>
+                <td>150 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2870 руб.</td>
+                <td>2070 руб.</td>
+              </tr>
+              <tr>
+                <td> Мазок на гонорею</td>
+                <td>150 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td></td>
+                <td>2870 руб.</td>
+                <td>2070 руб.</td>
+              </tr>
+              <tr>
+                <td>Мазок из зева и носа на наличие патогенного стафилококка</td>
+                <td>200 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td></td>
+                <td>2870 руб.</td>
+                <td>2070 руб.</td>
+              </tr>
+              <tr>
+                <td>Исследование на носительство возбудителей кишечных инфекций</td>
+                <td>150 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td></td>
+                <td>2870 руб.</td>
+                <td>2070 руб.</td>
+              </tr>
+              <tr>
+                <td>Серологическое обследование на брюшной тиф</td>
+                <td>100 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td></td>
+                <td>2870 руб.</td>
+                <td>2070 руб.</td>
+              </tr>
+              <tr>
+                <th colspan="6" class="header_name_ceny-oformlenie">Работники сферы коммунально-бытового обслуживания
+                </th>
+              </tr>
+              <tr>
+                <td> Оформление ЛМК, аттестация (при оформлении ЛМК)</td>
+                <td>700 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <td> Периодическая аттестация (при продлении ЛМК)</td>
+                <td>500 руб.</td>
+                <td></td>
+                <td><img src="images/tick.png"></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <td> Терапевт</td>
+                <td>230 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <td>Оториноларинголог</td>
+                <td>230 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <td> Стоматолог</td>
+                <td>230 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <td> Дерматовенеролог</td>
+                <td>230 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <td> Флюорография</td>
+                <td>350 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <td> Исследование крови на сифилис</td>
+                <td>150 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <td> Исследование на гельминтозы, энтеробиоз и протозоозы</td>
+                <td>150 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <td> Мазок на гонорею</td>
+                <td>150 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <td>Исследование на носительство возбудителей кишечных инфекций</td>
+                <td>150 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <td>Серологическое обследование на брюшной тиф</td>
+                <td>100 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <th colspan="6" class="header_name_ceny-oformlenie">Медицинские работники</th>
+              </tr>
+              <tr>
+                <td> Оформление ЛМК, аттестация (при оформлении ЛМК)</td>
+                <td>700 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td></td>
+                <td>3570 руб.</td>
+                <td>3120 руб.</td>
+              </tr>
+              <tr>
+                <td> Периодическая аттестация (при продлении ЛМК)</td>
+                <td>500 руб.</td>
+                <td></td>
+                <td><img src="images/tick.png"></td>
+                <td>3570 руб.</td>
+                <td>3120 руб.</td>
+              </tr>
+              <tr>
+                <td> Терапевт</td>
+                <td>230 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>3570 руб.</td>
+                <td>3120 руб.</td>
+              </tr>
+              <tr>
+                <td>Оториноларинголог</td>
+                <td>230 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>3570 руб.</td>
+                <td>3120 руб.</td>
+              </tr>
+              <tr>
+                <td> Стоматолог</td>
+                <td>230 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>3570 руб.</td>
+                <td>3120 руб.</td>
+              </tr>
+              <tr>
+                <td> Дерматовенеролог</td>
+                <td>230 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>3570 руб.</td>
+                <td>3120 руб.</td>
+              </tr>
+              <tr>
+                <td> Флюорография</td>
+                <td>350 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>3570 руб.</td>
+                <td>3120 руб.</td>
+              </tr>
+              <tr>
+                <td> Исследование крови на сифилис</td>
+                <td>150 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>3570 руб.</td>
+                <td>3120 руб.</td>
+              </tr>
+              <tr>
+                <td> Исследование на гельминтозы, энтеробиоз и протозоозы</td>
+                <td>150 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>3570 руб.</td>
+                <td>3120 руб.</td>
+              </tr>
+              <tr>
+                <td> Мазок на гонорею</td>
+                <td>150 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>3570 руб.</td>
+                <td>3120 руб.</td>
+              </tr>
+              <tr>
+                <td> Обследование на вирусные гепатиты В и С</td>
+                <td>500 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>3570 руб.</td>
+                <td>3120 руб.</td>
+              </tr>
+              <tr>
+                <td>Исследование крови на ВИЧ</td>
+                <td>200 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>3570 руб.</td>
+                <td>3120 руб.</td>
+              </tr>
+              <tr>
+                <td> Мазок из зева и носа на наличие патогенного стафилококка</td>
+                <td>200 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>3570 руб.</td>
+                <td>3120 руб.</td>
+              </tr>
+              <tr>
+                <td>Исследование на носительство возбудителей кишечных инфекций</td>
+                <td>150 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td></td>
+                <td>3570 руб.</td>
+                <td>3120 руб.</td>
+              </tr>
+              <tr>
+                <td>Серологическое обследование на брюшной тиф</td>
+                <td>100 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td></td>
+                <td>3570 руб.</td>
+                <td>3120 руб.</td>
+              </tr>
+              <tr>
+                <th colspan="6" class="header_name_ceny-oformlenie"> Работники образовательных учреждений</th>
+              </tr>
+              <tr>
+                <td> Оформление ЛМК, аттестация (при оформлении ЛМК)</td>
+                <td>700 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <td> Периодическая аттестация (при продлении ЛМК)</td>
+                <td>500 руб.</td>
+                <td></td>
+                <td><img src="images/tick.png"></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <td> Терапевт</td>
+                <td>230 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <td>Оториноларинголог</td>
+                <td>230 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <td> Стоматолог</td>
+                <td>230 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <td> Дерматовенеролог</td>
+                <td>230 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <td> Флюорография</td>
+                <td>350 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <td> Исследование крови на сифилис</td>
+                <td>150 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <td> Исследование на гельминтозы, энтеробиоз и протозоозы</td>
+                <td>150 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <td> Мазок на гонорею</td>
+                <td>150 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td><img src="images/tick.png"></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <td>Исследование на носительство возбудителей кишечных инфекций</td>
+                <td>150 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              <tr>
+                <td>Серологическое обследование на брюшной тиф</td>
+                <td>100 руб.</td>
+                <td><img src="images/tick.png"></td>
+                <td></td>
+                <td>2670 руб.</td>
+                <td>2220 руб.</td>
+              </tr>
+              </tbody>
+            </table>
+            <p>*цена включает в себя проведение исследований и анализов в указанном объеме. В случае необходимости
+              прохождения дополнительных медицинских исследований и/или анализов, цена подлежит уточнению.
+            </p>
+            <h5 class="wow fadeInRight margin-top ">ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</h5>
+            <table class="table table-hover table-ceny-oformlenie">
+              <tbody>
+              <tr>
+                <td>Психиатр</td>
+                <td>100 руб.</td>
+              </tr>
+              <tr>
+                <td>Нарколог</td>
+                <td>100 руб.</td>
+              </tr>
+              <tr>
+                <td>Прививка против кори</td>
+                <td>100 руб.</td>
+              </tr>
+              <tr>
+                <td>Прививка против дифтерии</td>
+                <td>100 руб.</td>
+              </tr>
+              <tr>
+                <td>Прививка против дизентерии</td>
+                <td>900 руб.</td>
+              </tr>
+              <tr>
+                <td>Прививка против гепатита В</td>
+                <td>400 руб.</td>
+              </tr>
+              <tr>
+                <td>Прививка против гепатита А</td>
+                <td>1400 руб.</td>
+              </tr>
+              <tr>
+                <td>Определение антител на бруцеллез (для сотрудников по переработке сырья пищевой и/или молочной
+                  промышленности)
                 </td>
-                <td>300 руб.</td>
+                <td>100 руб.</td>
+              </tr>
+              <tr>
+                <td>Исследование крови на вирусный гепатит B</td>
+                <td>250 руб.</td>
+              </tr>
+              <tr>
+                <td>Исследование крови на вирусный гепатит C</td>
+                <td>250 руб.</td>
               </tr>
               </tbody>
             </table>
