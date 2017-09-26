@@ -5619,7 +5619,7 @@ fieldset[disabled] .btn-default:focus.active {
 
 .btn-default:hover:active,
 .btn-default:hover.active,
-.open > .dropdown-toggle.btn-default:hover {
+.open > .dropdown-toggle. btn-default:hover {
     background-image: none;
 }
 
