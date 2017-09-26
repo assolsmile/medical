@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="48c32ed9-b633-4040-8098-76d86a3cb46f" name="Default" comment="Table for price">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kontakty.html" afterPath="$PROJECT_DIR$/kontakty.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -85,8 +84,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="176" />
-    <option name="height" value="800" />
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -183,7 +183,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="FullScreen" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunDashboard">
@@ -265,7 +264,7 @@
       <option name="presentableId" value="Default" />
       <updated>1499076114114</updated>
       <workItem from="1499076117219" duration="13434000" />
-      <workItem from="1500278578887" duration="12144000" />
+      <workItem from="1500278578887" duration="12401000" />
     </task>
     <task id="LOCAL-00001" summary="Table for price">
       <created>1499091551135</created>
@@ -299,10 +298,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25578000" />
+    <option name="totallyTimeSpent" value="25835000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="176" height="800" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
