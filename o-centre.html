@@ -47,11 +47,12 @@
         </div>
         <div class="navbar-header-contact">
           <h4 class="text-center">
-            <br class="br_768"> <a class="text-primary" href="#">+951 683-6370</a>
+            <br class="br_768"> <a class="number" href="#">+7 (495) 000-00-00</a>
           </h4>
           <div>
             <!-- Trigger the modal with a button -->
-            <button type="button" class="btn btn-lg btn-modal" data-toggle="modal" data-target="#myModal">Обратная связь
+            <button type="button" class="btn btn-modal" data-toggle="modal" data-target="#myModal"><img
+                    src="images/phone.png">ПЕРЕЗВОНИТЕ МНЕ
             </button>
 
             <!-- Modal -->
@@ -68,7 +69,7 @@
                             data-dismiss="modal">
                       <span aria-hidden="true">&times;</span>
                     </button>
-                    <h4 class="modal-title" id="myModalLabel">Modal Header</h4>
+                    <h5 class="modal-title margin-left-100" id="myModalLabel">ЗАКАЗАТЬ ЗВОНОК</h5>
                   </div>
 
                   <!-- Modal Body -->
@@ -112,14 +113,16 @@
                           <div class="col-sm-12">
                             <div class="checkbox">
                               <label>
-                                <input type="checkbox"/> Согласен на обработку персональных данных.
+                                <input type="checkbox" onclick="$('#send-callback').attr('disabled', !this.checked)"/>
+                                Выражаю свое согласие на обработку персональных данных, с условиями обработки
+                                персональных данных ознакомлен.
                               </label>
                             </div>
                           </div>
                         </div>
                         <div class="form-group">
                           <div class=" col-sm-12">
-                            <button type="submit" class="btn">Отправить</button>
+                            <button type="submit" class="btn" id="send-callback" disabled>Отправить</button>
                           </div>
                         </div>
                       </fieldset>
@@ -345,17 +348,31 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-sm-12 col-xs-12">
+              <div><a href="./"> <img src="images/logo.png" width="250"></a></div>
+              <address>
+                <p> Все права защищены ©</p>
+              </address>
+
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12">
               <div class="contact-us">
-                <h5>Контакты</h5>
-
-                <p>Телефоны: <a href="callto:#">+1 800 559 6580</a></p>
-
-                <a href="mailto:#">contact@demolink.org</a>
-
+                <h4> +7 (495) 000-00-00</h4>
+                <h6 class="float-right"><a href="mailto:#">info@info.ru</a></h6>
+                <div class="clear"></div>
                 <address>
-                  <p> Пакгаузное шоссе, 1к1 <br>
-                    Москва, Россия
+                  <p class="float-right text-right"> 125438, Москва <br>
+                    Пакгаузное шоссе, 1к1
                 </address>
+              </div>
+            </div>
+            <div class="row"></div>
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="footer-rights">
+                <p> Пользуясь данным сайтом и любыми его сервисами,<a class="activ-ssilka"> вы подтверждаете свое согласие на обработку
+                  персональной информации.</a></p>
+                <p> Общество с ограниченной ответственностью “Национальный центр профессиональной патологии”, <a class="activ-ssilka">
+                  Лицензия № ЛО-77-01-011605.</a></p>
               </div>
             </div>
           </div>
