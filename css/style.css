@@ -28,6 +28,10 @@
   margin-top: 16px;
 }
 
+.margin-left-100 {
+  margin-left: 100px;
+}
+
 .img-height-ceny{
   height: 247px !important;
 }
@@ -57,6 +61,15 @@
 
 .margin-top {
   margin-top: 30px;
+}
+
+
+.float-right {
+  float: right;
+}
+
+.clear {
+  clear: both;
 }
 
 
@@ -160,31 +173,61 @@
 /*Navbar header contact and modal*/
 
 /*--------------------------*/
+.number {
+  font-weight: 500;
+  color: #de0500;
+}
 
 .navbar-header-contact{
   margin-top: 41px;
   float: right;
 }
 
+@media (max-width: 768px) {
+  .navbar-header-contact {
+    float: none;
+  }
+}
+
+
 .btn-modal {
-  padding: 10px 0;
-  margin-top: 22px;
-  width: 380px;
+  margin-top: 10px;
+  width: 150px;
+  padding: 0;
+  font-size: 14px;
+  position: relative;
+  left: 110px;
+}
+
+.btn-modal img {
+  margin-right: 5px;
+  margin-bottom: 3px;
+  width: 15px;
 }
 
 @media (max-width: 768px) {
   .btn-modal {
-    width: 350px;
+   position: relative;
+    left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal-title {
+    margin-left: 0px;
   }
 }
 
 .modal-textarea {
   width: 450px;
+  border: 1px solid #cccccc;
+  font-style: italic;
 }
+
 
 @media (max-width: 768px) {
   .modal-textarea {
-    border: 1px solid #e2e0e0;
+    border: 1px solid #cccccc;
     width: 320px;
   }
 }
@@ -312,18 +355,27 @@
 /*--------------------------*/
 
 .klienti-mib {
-  padding-left: 80px;
+  width: 250px !important;
+  padding-left: 70px;
+
 }
 @media only screen and (max-width: 768px) {
   .klienti-mib {
-    padding-left: 0;
+    padding-left: 70px;
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .klienti-mib {
+    width: 200px !important;
+    padding-left: 50px;
+  }
+}
 
 .klienti-lit {
-  padding-left: 30px;
   width: 300px;
+  padding-left: 40px;
+  padding-bottom: 13px;
 }
 @media only screen and (max-width: 768px) {
   .klienti-lit {
@@ -334,10 +386,28 @@
 
 .klienti-moskow {
   padding-left: 30px;
+  padding-top: 20px;
   width: 300px;
 }
 @media only screen and (max-width: 768px) {
   .klienti-moskow {
     padding-left: 0;
   }
+}
+/*--------------------------*/
+
+/*Footer contacts and rights */
+
+/*--------------------------*/
+
+.contact-us {
+  float: right;
+}
+
+.footer-rights {
+ padding-top: 50px;
+}
+
+.footer-rights p {
+  line-height: 30px;
 }
