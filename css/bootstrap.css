@@ -3846,7 +3846,7 @@ pre code {
 
 @media (min-width: 1200px) {
     .container {
-        width: 1170px;
+        width: 1100px;
     }
 }
 
@@ -7806,9 +7806,10 @@ a.badge:focus {
 }
 
 .thumbnail4 .caption {
+    font-size: 11px;
     margin-top: 0;
     text-align: center;
-    padding: 28px 65px 16px 65px;
+    padding: 28px 65px 12px 65px;
 }
 
 .thumbnail4 .caption h5,
@@ -7863,11 +7864,7 @@ a.badge:focus {
     margin-top: 9px;
 }
 
-@media (max-width: 1199px) {
-    .thumbnail4 .caption__mod01 {
-        margin: 18px 30px 22px 30px;
-    }
-}
+
 
 @media (max-width: 979px) {
     .thumbnail4 .caption__mod01 {

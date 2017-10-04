@@ -29,7 +29,7 @@
 }
 
 .margin-left-100 {
-  margin-left: 100px;
+  margin-left: 80px;
 }
 
 .img-height-ceny{
@@ -47,8 +47,7 @@
 
 
 .nav-bar2 {
-  width: 200px;
-  margin: auto;
+  margin-left: 37%;
 }
 
 .active-nav-bar2 {
@@ -205,16 +204,13 @@
   width: 15px;
 }
 
-@media (max-width: 768px) {
-  .btn-modal {
-   position: relative;
-    left: 0;
-  }
-}
 
 @media (max-width: 768px) {
   .modal-title {
     margin-left: 0px;
+  }
+  .btn-modal {
+    left: 0;
   }
 }
 
@@ -305,6 +301,13 @@
   color: #01b9af;
   font-weight: 400;
   text-align: center;
+}
+
+.table-ceny-oformlenie th:first-child {
+  font-size: 15px;
+  color: #01b9af;
+  font-weight: 400;
+  text-align: left;
 }
 
 .table-ceny-oformlenie td {
