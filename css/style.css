@@ -193,7 +193,7 @@
   margin-top: 10px;
   width: 150px;
   padding: 0;
-  font-size: 14px;
+  font-size: 12px;
   position: relative;
   left: 110px;
 }
@@ -236,6 +236,59 @@
   border: 1px solid #a4a4a5;
 }
 
+
+/*--------------------------*/
+
+/*Btn-modal-prof and modal*/
+
+/*--------------------------*/
+
+.btn-modal-prof {
+  float: right;
+  top: -43px;
+}
+
+@media (max-width: 700px) {
+  .btn-modal-prof {
+    float: left;
+    top: 0px;
+  }
+}
+
+#send-prof:disabled{
+  background-color: #a4a4a5;
+}
+
+#send-prof:disabled:hover{
+  border: 1px solid #a4a4a5;
+}
+
+/*--------------------------*/
+
+/*Ofor-modal-pro and modal*/
+
+/*--------------------------*/
+
+
+.btn-modal-ofor {
+  float: right;
+  top: -43px;
+}
+
+@media (max-width: 700px) {
+  .btn-modal-ofor {
+    float: left;
+    top: 0px;
+  }
+}
+
+#send-ofor:disabled{
+  background-color: #a4a4a5;
+}
+
+#send-ofor:disabled:hover{
+  border: 1px solid #a4a4a5;
+}
 
 /*--------------------------*/
 
@@ -358,45 +411,23 @@
 /*--------------------------*/
 
 .klienti-mib {
-  width: 250px !important;
-  padding-left: 70px;
-
-}
-@media only screen and (max-width: 768px) {
-  .klienti-mib {
-    padding-left: 70px;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .klienti-mib {
-    width: 200px !important;
-    padding-left: 50px;
-  }
+  width: 150px !important;
+  margin-left: 20%;
 }
 
 .klienti-lit {
-  width: 300px;
-  padding-left: 40px;
-  padding-bottom: 13px;
-}
-@media only screen and (max-width: 768px) {
-  .klienti-lit {
-    padding-left: 0;
-  }
+  width: 80%;
+  margin: auto;
+  /*margin-left: 30px;*/
 }
 
 
 .klienti-moskow {
-  padding-left: 30px;
-  padding-top: 20px;
-  width: 300px;
+  width: 80%;
+  margin-left: 10%;
 }
-@media only screen and (max-width: 768px) {
-  .klienti-moskow {
-    padding-left: 0;
-  }
-}
+
+
 /*--------------------------*/
 
 /*Footer contacts and rights */

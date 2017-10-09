@@ -70,7 +70,7 @@
                             data-dismiss="modal">
                       <span aria-hidden="true">&times;</span>
                     </button>
-                    <h5 class="modal-title margin-left-100" id="myModalLabel">ЗАКАЗАТЬ ЗВОНОК</h5>
+                    <h5 class="modal-title text-center" id="myModalLabel">ЗАКАЗАТЬ ЗВОНОК</h5>
                   </div>
 
                   <!-- Modal Body -->
@@ -203,7 +203,90 @@
         <hr>
         <div class=" well">
           <div class="container">
-            <h5 class=" wow fadeInRight">ОБ УСЛУГЕ</h5>
+            <div>
+              <h5 class=" wow fadeInRight">ОБ УСЛУГЕ</h5>
+              <button type="button" class="btn btn-modal-ofor" data-toggle="modal" data-target="#myModalOfor"><img
+                      src="images/phone.png">ПОДАТЬ ЗАЯВКУ
+              </button>
+            </div>
+            <div>
+              <div class="modal fade" id="myModalOfor" role="dialog" aria-labelledby="myModalOforLabel"
+                   aria-hidden="true">
+                <div class="modal-dialog">
+
+                  <!-- Modal content-->
+
+                  <div class="modal-content" style="margin-top: 100px">
+                    <div class="modal-header">
+                      <button type="button" class="close"
+                              data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                      <h6 class="modal-title text-center" id="myModalOforLabel">ЛИЧНАЯ МЕДИЦИЕСКАЯ КНИЖКА <br> ОФОРМИТЬ ЗАЯВКУ</h6>
+                    </div>
+
+                    <!-- Modal Body -->
+
+                    <div class="modal-body">
+                      <form class="form-horizontal" role="form" method="post" action="bat/rd-mailform.php">
+                        <input type="hidden" name="form-type" value="callback"/>
+                        <fieldset>
+                          <div class="form-group">
+                            <div class="col-sm-12">
+                              <input type="text"
+                                     name="name"
+                                     class="form-control"
+                                     placeholder="Ваше имя"/>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="col-sm-12">
+                              <input type="text"
+                                     name="telephone"
+                                     class="form-control"
+                                     placeholder="Телефон"/>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="col-sm-12">
+                              <input type="text"
+                                     class="form-control"
+                                     placeholder="Время для звонка"/>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="col-sm-12">
+                          <textarea
+                                  class="modal-textarea"
+                                  name="comments"
+                                  placeholder="Комментарий"></textarea>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="col-sm-12">
+                              <div class="checkbox">
+                                <label>
+                                  <input type="checkbox" onclick="$('#send-ofor').attr('disabled', !this.checked)"/>
+                                  Нажимая кнопку «Отправить», я даю согласие на обработку моих персональных данных в
+                                  соответствии с условиями <a class="activ-ssilka">«Политики конфиденциальности».</a>
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class=" col-sm-12">
+                              <button type="submit" class="btn" id="send-ofor" disabled>Отправить</button>
+                            </div>
+                          </div>
+                        </fieldset>
+                      </form>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInLeft">
                 <p class="p_mod">Duis sem est viverra eu interdum ac suscipit nec mauris. Suspendisse commodo tempor

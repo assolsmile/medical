@@ -200,7 +200,91 @@
         <hr>
         <div class=" well">
           <div class="container">
-            <h5 class=" wow fadeInRight">ОБ УСЛУГЕ</h5>
+            <div class="header-modal-prof">
+              <h5 class=" wow fadeInRight">ОБ УСЛУГЕ</h5>
+              <!-- Trigger the modal with a button -->
+              <button type="button" class="btn btn-modal-prof" data-toggle="modal" data-target="#myModalProf"><img
+                      src="images/phone.png">ПОДАТЬ ЗАЯВКУ
+              </button>
+            </div>
+            <!-- Modal -->
+
+            <div class="modal fade" id="myModalProf" role="dialog" aria-labelledby="myModalProfLabel"
+                 aria-hidden="true">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+
+                <div class="modal-content" style="margin-top: 100px">
+                  <div class="modal-header">
+                    <button type="button" class="close"
+                            data-dismiss="modal">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h5 class="modal-title text-center" id="myModalProfLabel">ПРОФОСМОТР <br> ОФОРМИТЬ ЗАЯВКУ</h5>
+                  </div>
+
+                  <!-- Modal Body -->
+
+                  <div class="modal-body">
+                    <form class="form-horizontal" role="form" method="post" action="bat/rd-mailform.php">
+                      <input type="hidden" name="form-type" value="callback"/>
+                      <fieldset>
+                        <div class="form-group">
+                          <div class="col-sm-12">
+                            <input type="text"
+                                   name="name"
+                                   class="form-control"
+                                   placeholder="Ваше имя"/>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-sm-12">
+                            <input type="text"
+                                   name="telephone"
+                                   class="form-control"
+                                   placeholder="Телефон"/>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-sm-12">
+                            <input type="text"
+                                   class="form-control"
+                                   placeholder="E-mail"/>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-sm-12">
+                          <textarea
+                                  class="modal-textarea"
+                                  name="comments"
+                                  placeholder="Комментарий"></textarea>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-sm-12">
+                            <div class="checkbox">
+                              <label>
+                                <input type="checkbox" onclick="$('#send-prof').attr('disabled', !this.checked)"/>
+                                Нажимая кнопку «Отправить», я даю согласие на обработку моих персональных данных в
+                                соответствии с условиями <a class="activ-ssilka">«Политики конфиденциальности».</a>
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class=" col-sm-12">
+                            <button type="submit" class="btn" id="send-prof" disabled>Отправить</button>
+                          </div>
+                        </div>
+                      </fieldset>
+                    </form>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInLeft">
                 <p class="p_mod">Проведение обязательных медицинских осмотров является приоритетным направлением
@@ -316,7 +400,7 @@
 
           <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12  wow fadeInLeft">
-              <img src="images/Порядок_проведения_предварительных_медицинских_осмотров.png">
+              <img src="images/poryadok_provedeniya.jpg">
             </div>
           </div>
         </div>
@@ -329,7 +413,8 @@
             <div id="contract" class="col-md-12 col-sm-12 col-xs-12 z-index-1">
               <div class="thumbnail thumbnail4 thumbnail4_mod">
                 <div class="caption">
-                  <p><p>МЕДИЦИНСКИЙ ОСМОТР <br> ТИПОВАЯ ФОРМА ДОГОВОРА </p>
+                  <p>
+                  <p>МЕДИЦИНСКИЙ ОСМОТР <br> ТИПОВАЯ ФОРМА ДОГОВОРА </p>
                   <a class="btn btn-xs" href="assets/docs/profosmotry/ДОГОВОР.docx"></a>
                 </div>
               </div>
@@ -388,7 +473,8 @@
               <div class="footer-rights">
                 <p> ООО “Национальный центр профессиональной патологии”, <a class="activ-ssilka">
                   Лицензия № ЛО-77-01-011605.</a></p>
-                <p> Пользуясь данным сайтом и любыми его сервисами,<a class="activ-ssilka"> вы подтверждаете свое согласие на обработку
+                <p> Пользуясь данным сайтом и любыми его сервисами,<a class="activ-ssilka"> вы подтверждаете свое
+                  согласие на обработку
                   персональной информации.</a></p>
               </div>
             </div>
