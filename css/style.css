@@ -248,12 +248,6 @@
   top: -43px;
 }
 
-@media (max-width: 700px) {
-  .btn-modal-prof {
-    float: left;
-    top: 0px;
-  }
-}
 
 #send-prof:disabled{
   background-color: #a4a4a5;
@@ -273,13 +267,6 @@
 .btn-modal-ofor {
   float: right;
   top: -43px;
-}
-
-@media (max-width: 700px) {
-  .btn-modal-ofor {
-    float: left;
-    top: 0px;
-  }
 }
 
 #send-ofor:disabled{
