@@ -391,6 +391,11 @@
   text-align: center;
 }
 
+.costs {
+  position: relative;
+  left: -16px;
+}
+
 /*--------------------------*/
 
 /*Our customers*/

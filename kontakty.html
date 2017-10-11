@@ -116,8 +116,8 @@
                             <div class="checkbox">
                               <label>
                                 <input type="checkbox" onclick="$('#send-callback').attr('disabled', !this.checked)"/>
-                                Выражаю свое согласие на обработку персональных данных, с условиями обработки
-                                персональных данных ознакомлен.
+                                Нажимая кнопку «Отправить», я даю согласие на обработку моих персональных данных в
+                                соответствии с условиями <a class="activ-ssilka">«Политики конфиденциальности».</a>
                               </label>
                             </div>
                           </div>
@@ -249,53 +249,6 @@
         </div>
       </div>
     </section>
-
-    <section class="well6 well6__ins">
-      <div class="container">
-        <h5>задать вопрос</h5>
-
-        <div class="row">
-          <div class="mailform_wrap">
-            <form class='mailform' method="post" action="bat/rd-mailform.php">
-              <input type="hidden" name="form-type" value="contact"/>
-              <fieldset>
-
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                  <label class="textarea" data-add-placeholder="">
-                                                          <textarea name="message" placeholder="Ваше сообщение"
-                                                                    data-constraints="@NotEmpty"></textarea>
-                  </label>
-                </div>
-
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                  <label data-add-placeholder="">
-                    <input type="text"
-                           name="name"
-                           placeholder="ФИО"
-                           data-constraints="@LettersOnly @NotEmpty"/>
-                  </label>
-                </div>
-
-                <div class="col-md-6 col-sm-12 col-xs-12 off_mail">
-                  <label data-add-placeholder="">
-                    <input type="text"
-                           name="email"
-                           placeholder="Ваш E-mail"
-                           data-constraints="@Email @NotEmpty"/>
-                  </label>
-                </div>
-
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                  <div class="mfControls">
-                    <button class="btn btn-primary" type="submit">Отправить</button>
-                  </div>
-                </div>
-              </fieldset>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
   </main>
 
   <!--========================================================
@@ -330,7 +283,7 @@
               <div class="footer-rights">
                 <p> ООО “Национальный центр профессиональной патологии”, <a class="activ-ssilka">
                   Лицензия № ЛО-77-01-011605.</a></p>
-                <p> Пользуясь данным сайтом и любыми его сервисами,<a class="activ-ssilka"> вы подтверждаете свое согласие на обработку
+                <p> Пользуясь данным сайтом и любыми его сервисами,<a class="activ-ssilka"> Вы подтверждаете свое согласие на обработку
                   персональной информации.</a></p>
               </div>
             </div>
