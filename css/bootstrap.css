@@ -8224,9 +8224,6 @@ a.badge:focus {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    max-width: 570px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .media:first-child {
@@ -8363,6 +8360,10 @@ img + .media_cnt {
         padding-left: 0;
         text-align: center;
     }
+
+  .media-body li {
+    text-align: left;
+  }
 
     .media-body .btn-link {
         margin-left: -10px;
