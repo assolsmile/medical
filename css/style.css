@@ -62,7 +62,6 @@
   margin-top: 30px;
 }
 
-
 .float-right {
   float: right;
 }
@@ -405,27 +404,59 @@
 
 /*--------------------------*/
 
-/*Our customers*/
+/*Our customer */
 
 /*--------------------------*/
 
-.klienti-mib {
-  width: 150px !important;
-  margin-left: 20%;
+.mib {
+  height: 100px;
 }
 
-.klienti-lit {
-  width: 80%;
-  margin: auto;
-  /*margin-left: 30px;*/
+.lit {
+  width: 314.66px;
+  height: 100px
+}
+.mos {
+  height: 90px
 }
 
 
-.klienti-moskow {
-  width: 80%;
-  margin-left: 10%;
+.margin-top-mib {
+  margin-top: 30px;
 }
 
+.margin-top-lit {
+  margin-top: 30px;
+}
+
+.margin-top-mos {
+  margin-top: 40px;
+}
+
+@media (max-width: 1199px) and (min-width: 993px) {
+  .margin-top-mib {
+    margin-top: 45px;
+  }
+  .margin-top-lit {
+    margin-top: 0;
+  }
+  .margin-top-mos {
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 993px) {
+  .margin-top-lit {
+    margin-top: 31px;
+  }
+}
+
+
+@media (max-width: 993px) {
+  .margin-top-mos {
+    margin-top: -7px;
+  }
+}
 
 /*--------------------------*/
 
